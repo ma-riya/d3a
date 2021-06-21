@@ -1,0 +1,20 @@
+{
+    "name": "d3a-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "cypress:open": "cypress open",
+        "cypress:run": "cypress run"
+    },
+    "cypress-cucumber-preprocessor": {
+        "nonGlobalStepDefinitions": true
+    },
+    "author": "MD",
+    "license": "ISC",
+    "devDependencies": {
+        "cypress": "^7.5.0",
+        "cypress-cucumber-preprocessor": "^4.1.2",
+        "prettier": "2.3.1"
+    }
+}
